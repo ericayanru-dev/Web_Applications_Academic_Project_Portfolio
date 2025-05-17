@@ -9,7 +9,7 @@
 
 .callout img {
 	float: right;
-    margin:2 0 10px 10px;
+    margin:2px 0px 10px 10px;
     border: 1px;
     padding: 3px;
     background-color: gray;
@@ -23,7 +23,7 @@ blockquote {
 
 cite {
 	display: block;
-    border-top: 1px dotted #ffffff;
+    border-top: 1px dotted rgb(255, 255, 255);
     padding-top: 3px;
     text-align: right;
     font-size: smaller;
