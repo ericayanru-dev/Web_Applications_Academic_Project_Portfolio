@@ -10,6 +10,9 @@ nav a {
 h1{
     color: darkblue;
 }
+main {
+    max-width: 400px; 
+}
 main img {
     width: 150px;
     height: auto;
