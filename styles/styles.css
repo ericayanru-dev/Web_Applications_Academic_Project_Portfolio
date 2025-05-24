@@ -60,6 +60,7 @@ footer {
     padding:1rem;
     background-color: #ddd;
     color: #000;
+    clear: both;
 }
 
 .list{
