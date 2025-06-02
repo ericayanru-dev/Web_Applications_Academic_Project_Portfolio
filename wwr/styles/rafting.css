@@ -16,7 +16,7 @@ body{
   color: var(--accent1-color)
 }
 header, main, footer{
-width: 840px;
+width: auto;
 margin: 0 auto;
 }
 h1, h2{
@@ -62,4 +62,74 @@ article {
 .hero article img{
     float: right;
     width: 125px;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-around;
+    align-items: center;
+}
+header img{
+    padding: 0.5rem;
+	width: 100%;
+	height: auto;
+    grid-column:2/3;
+    grid-row:1/4;
+}
+
+.f-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+	font-family: Arial, sans-serif;
+    grid-column:4/7;
+    grid-row:2/3;
+    align-items: center;
+}
+
+.f-nav a{
+border: 2px solid rgb(0, 0, 0);
+padding: 5px;
+
+}
+section{
+display:flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+section img{
+width: 20%;
+height: auto;
+max-width: 100%
+}
+
+.images{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+footer{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.socialmedia{ 
+display: flex; 
+justify-content: center;
+align-items: center;
+}
+
+a img{
+margin: 1rem;
+width: 32px;
+padding:0;
+height: auto;
 }
