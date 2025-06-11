@@ -40,7 +40,7 @@ padding: 8px;
     width: 100%;
     height: auto;
 }
-h1{
+p1{
     position: absolute;
     top:20px;
     width: 100%;
@@ -48,7 +48,8 @@ h1{
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff
+    color: #fff;
+    font-size:xx-large;
 }
 article {
     position: absolute;
@@ -162,6 +163,7 @@ height: auto;
     width: 48rem;
     border: 1px solid;
     border-radius: 0.5rem;
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: space-around;
@@ -233,4 +235,11 @@ button{
     padding: 0.7rem;
     font-size: 1.25rem;
     display: flex;
+}
+
+iframe{
+    display: flex;
+    margin: 0 auto;
+    width: 41rem;
+    justify-items: center;
 }
