@@ -92,10 +92,11 @@ article {
 }
 
 .stress p {
+    width: 17rem;
     position: absolute;
     font-size: 15px;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 55%;
     transform: translate(-55%, -1%);
     padding: 16px;
     opacity: 0.7;
