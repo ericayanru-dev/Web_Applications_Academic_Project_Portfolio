@@ -19,10 +19,14 @@ header {
 }
 
 nav{
-    display: flex;
-    justify-content: space-around;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 0.1fr));
+  gap: 1rem;
+  max-width: auto;
+  margin: 0 1rem;
 }
- nav a {
+nav a {
     color: rgb(8, 8, 8);
     text-decoration: none;
     transition: color 0.3s ease;
