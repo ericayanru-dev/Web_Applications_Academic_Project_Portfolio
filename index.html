@@ -4,43 +4,136 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Eric Ayanru | WDD 130</title>
-        <meta name="description" content="Eric Ayanru | WDD130 | Home page">
+        <title>Eric Ayanru | Developer Portfolio</title>
+        <meta name="description" content="Eric Ayanru | Developer Portfolio| Home page">
         <meta name="author" content="Eric Ayanru">
         <link rel="stylesheet" href="styles/styles.css">
     </head>
     <body>
-        <header>
+        <header id="home">
+            <h1>Eric Ayanru</h1>
+            <p> Python Developer| Full-Stack Developer in Training | Future AI Engineer</p>
             <nav>
-                <a href="#">Home</a>
-                <a href="wwr/">Rafting Website</a>
-                <a href="https://github.com/ricktech9">Linkedin</a>
-                <a href="https://facebook.com.">Facebook</a>
+                <button><a href="#home">Home</a></button>
+                <button><a href="#about">About</a></button>
+                <button><a href="#learning-roadmap">Learning Roadmap</a></button>
+                <button><a href="#contact">Contact</a></button>
             </nav>
         </header>
         <main>
-            <h1>Eric Ayanru | WDD 130</h1>
-            <img src="images/profile.jpg" alt="Eric" width="200">
-            <p> Hi! I’m Eric Ayanru, a student of WDD 130. I'm passionate about web development and design. 
-                I enjoy solving problems and building creative digital experiences. I also love exploring 
-                new technologies and continually improving my skills.</p>
-            <ul class="box">
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng">
-                    Aba, Abia, Nigeria </a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/abuja-nigeria-temple?lang=eng">
-                    Abuja Nigeria</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng">
-                    Accra, Greater Accra, Ghana</a> </li>
-            </ul>
-        </main>
-        <aside class="box">
-            <h2>Nigeria</h2>
-            <img src="images/nigeria_flag.jpg" alt="Nigeria Flag">
-            <p>Nigeria is a vibrant country located in West Africa, known for its rich cultural heritage.</p>
-        </aside>
-        <footer>
-            <p>©️2025 🤺Eric Ayanru 🤺 Nigeria </p>
-        </footer>
+             <section class="hero">
+                <h1>Aspiring Full-Stack & AI Developer</h1>
+                <p>Building modern web applications, learning AI, and preparing for cybersecurity excellence. Explore my projects below.</p>
+                <div>
+                    <button><a href="#projects">View Projects</a></button>
+                    <button><a href="docs/Eric Ayanru Resume.pdf"  download class="download-btn">Download Resume</a></button>
+                </div>
+            </section>
+            <section id="about"  class="about">
+                <h2>About Me</h2>
+                <p>
+                    Hello, I'm Eric Ayanru. So far, I've built a solid foundation in HTML, CSS, Python, and SQL, creating web pages, designing databases,
+                    automating tasks, and developing problem-solving projects. I am now expanding my skills towards Full-Stack Web Development,
+                    Software Engineering, and AI Development. I enjoy using code to solve real-world problems and aim to build impactful applications,
+                    software solutions, and AI models in the future.
+                </p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <div class="skill-item"><strong>Languages:</strong> Python, SQL, HTML, CSS</div>
+                    <div class="skill-item"><strong>Frameworks & Libraries:</strong> Flask (learning), Django (learning)</div>
+                    <div class="skill-item"><strong>Tools:</strong> Git, GitHub, VSCode, MySQL Workbench</div>
+                    <div class="skill-item"><strong>Concepts:</strong> OOP, Database Design, CRUD Operations</div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects">
+                <h2>Projects</h2>
+                <p>
+                    Below are some of my academic and personal projects. Visit my GitHub for full code and documentation.
+                </p>
+                <h3>Python Projects</h3>
+                <ul>
+                    <li><strong>Chemical Formula Analyzer</strong> – parses chemical formulas and computes molar masses.</li>
+                    <li><strong>Dice Roller GUI</strong> – simulates dice rolls with a graphical interface using Tkinter.</li>
+                    <li><strong>Grocery Store</strong> – inventory and sales management system.</li>
+                    <li><strong>Password Strength Checker</strong> – evaluates and scores password security.</li>
+                    <li><strong>Tire Volume Calculator</strong> – calculates tire volume for engineering applications.</li>
+                    <li><strong>Water Distribution Optimizer</strong> – optimizes water allocation calculations.</li>
+                    <li><strong>Fish Farm Management System</strong> – tracks feed, growth, and profitability metrics.</li>
+                </ul>
+                <p><a href="https://github.com/ericayanru-dev?tab=repositories&q=&type=&language=python&sort=" target="_blank">View Python Projects on GitHub</a></p>
+
+                <h3>SQL Projects</h3>
+                <ul>
+                    <li><strong>University Database Design</strong> – schema design, data insertion, and querying for academic management.</li>
+                    <li><strong>Bike Shop Queries</strong> – product, sales, and inventory queries.</li>
+                    <li><strong>Magazine Subscription Queries</strong> – subscriber data management and analytical queries.</li>
+                </ul>
+                <p><a href="https://github.com/ericayanru-dev/SQL-Academic-Project-Portfolio" target="_blank">View SQL Projects on GitHub</a></p>
+
+                <h3>Web Development</h3>
+                <ul>
+                    <li><strong>Whitewater Rafting Site</strong> – multi-page website with modern HTML/CSS structure.</li>
+                    <li><strong>Portfolio Website</strong> – this current portfolio site showcasing my skills and roadmap.</li>
+                </ul>
+                <p><a href="https://github.com/ericayanru-dev?tab=repositories&q=&type=&language=html&sort=" target="_blank">View Web Projects on GitHub</a></p>            
+            </section>
+            <section id="learning-roadmap">
+               <h2>My Learning Roadmap</h2>
+
+                <div class="roadmap-item">
+                    <h3>Full-Stack Web Development</h3>
+                    <p>Building interactive websites and applications with HTML, CSS, JavaScript, and backend frameworks for quick, visible results.</p>
+                </div>
+
+                <div class="roadmap-item">
+                    <h3>Software Development</h3>
+                    <p>Strengthening general programming and object-oriented programming (OOP) skills in Python and other languages like C# and C++.</p>
+                </div>
+
+                <div class="roadmap-item">
+                    <h3>AI & Machine Learning</h3>
+                    <p>Applying Python skills to data analysis, predictive models, and automation.</p>
+                </div>
+
+                <div class="roadmap-item">
+                    <h3>DevOps & Cloud</h3>
+                    <p>Learning deployment, CI/CD pipelines, Docker, and cloud platforms for professional-grade applications.</p>
+                </div>
+
+                <div class="roadmap-item">
+                    <h3>Cybersecurity Programming</h3>
+                    <p>Ensuring secure coding, penetration testing, and defensive programming to protect software systems.</p>
+                </div>
+            </section>
+
+            <section id="certifications">
+                <h2>Certifications & Courses</h2>
+                <div class="cert-list">
+                    <div class="cert-item">
+                    <h3>Introduction to Python Programming</h3>
+                    <p>BYU CSE111 (2025)</p>
+                    </div>
+                    <div class="cert-item">
+                    <h3>Database Fundamentals (SQL)</h3>
+                    <p>BYU ITM111 (2025)</p>
+                    </div>
+                    <div class="cert-item">
+                    <h3>Web Fundamentals (HTML, CSS)</h3>
+                    <p>BYU WDD130 (2025)</p>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="contact">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:ericayanru@outlook.com">ericayanru@outlook.com</a></p>
+                <p>GitHub: <a href="https://github.com/ericayanru-dev" target="_blank">ericayanru-dev</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/ericayanru" target="_blank">Eric Ayanru</a></p>
+                <p>© 2025 Eric Ayanru | All Rights Reserved</p>
+            </footer>
     </body>
     <!-- <24/may/2025> -->
 </html>
