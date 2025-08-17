@@ -1,0 +1,102 @@
+
+:root {
+    --primary-color: #4169E1;
+    --accent-color: #00BFA6;
+    --light-bg: #F4F4F4;
+    --dark-text: #333333;
+    --heading-font: sans-serif;
+    --body-font: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--light-bg);
+    color: var(--dark-text);
+    padding: 2rem;
+
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+}
+
+header span {
+    font-weight: bold;
+}
+
+main section {
+    background: white;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid var(--accent-color);
+    border-radius: 6px;
+}
+
+section h1, section h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+ul {
+    padding-left: 1.25rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+table th {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-weight: 500;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.color-scheme h1 {
+    margin-bottom: 0;
+}
+
+footer {
+  background-color: #f1f1f1; 
+  padding: 1rem;            
+  text-align: center;        
+  font-size: 1rem;
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+}
+
+footer a {
+  color: #0077cc;          
+  text-decoration: none;
+  margin: 0 1rem;           
+}
+
+footer a:hover {
+  color: #004b99;           
+  text-decoration: underline;
+}

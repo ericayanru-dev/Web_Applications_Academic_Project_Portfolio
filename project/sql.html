@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn SQL - Beginner Code Path</title>
+    <meta name="author" content="Eric Ayanru">
+    <meta name="description" content="SQL learning resources for beginners on the Beginner Code Path site">
+    <link rel="stylesheet" href="styles/beginner-code.css">
+    <script defer src="scripts/beginner-code.js"></script>
+</head>
+<body>
+    <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/beginner_code_path.svg" alt="Beginner Code Path logo" class="logo" >
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle"><span class="material-icons">&#9776;</span></button>
+
+      <nav id="main-nav" class="main-nav">
+            <a href="index.html" class="head">Home</a>
+            <a href="html.html" class="head">HTML</a>
+            <a href="css.html" class="head">CSS</a> 
+            <a href="javascript.html" class="head">JavaScript</a>   
+            <a href="python.html" class="head">Python</a>   
+            <a href="csharp.html" class="head">C#</a>   
+            <a href="sql.html" class="head">SQL</a> 
+      </nav>
+    </div>
+  </header>
+
+    <main>
+        <section class="intro">
+            <h1>Learn SQL</h1>
+            <p>SQL (Structured Query Language) is used to manage and manipulate databases. Whether you're building websites, apps, or data-driven systems, SQL is essential for interacting with stored data.</p>
+        </section>
+
+        <section class="content">
+            <h3>What You’ll Learn</h3>
+            <ul>
+                <li>Creating and managing databases</li>
+                <li>Writing SELECT, INSERT, UPDATE, DELETE queries</li>
+                <li>Using WHERE, ORDER BY, and LIMIT</li>
+                <li>Joining multiple tables</li>
+                <li>Understanding primary keys and foreign keys</li>
+                <li>Basic aggregate functions (COUNT, SUM, AVG, etc.)</li>
+            </ul>
+        </section>
+
+        <section class="resources">
+            <h3>Beginner SQL Resources</h3>
+            <ul>
+                <li><a href="https://www.w3schools.com/sql/" target="_blank">W3Schools SQL Tutorial</a></li>
+                <li><a href="https://sqlbolt.com/" target="_blank">SQLBolt Interactive Lessons</a></li>
+                <li><a href="https://www.postgresql.org/docs/" target="_blank">PostgreSQL Official Docs</a></li>
+            </ul>
+        </section>
+
+        <section class="exercise">
+            <h3>Try It Yourself</h3>
+            <p>Write a query to find all customers who live in "New York" from a table named <code>customers</code>.</p>
+<pre>
+<code>
+SELECT * 
+FROM customers
+WHERE city = 'New York';
+</code>
+</pre>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Beginner Code Path. All rights reserved. <a href="resources.html#references">References</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>

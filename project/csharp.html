@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn C# - Beginner Code Path</title>
+    <meta name="author" content="Eric Ayanru">
+    <meta name="description" content="C# learning resources for beginners on the Beginner Code Path site">
+    <link rel="stylesheet" href="styles/beginner-code.css">
+    <script defer src="scripts/beginner-code.js"></script>
+</head>
+<body>
+
+    <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/beginner_code_path.svg" alt="Beginner Code Path logo" class="logo" >
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle"><span class="material-icons">&#9776;</span></button>
+
+      <nav id="main-nav" class="main-nav">
+            <a href="index.html" class="head">Home</a>
+            <a href="html.html" class="head">HTML</a>
+            <a href="css.html" class="head">CSS</a> 
+            <a href="javascript.html" class="head">JavaScript</a>   
+            <a href="python.html" class="head">Python</a>   
+            <a href="csharp.html" class="head">C#</a>   
+            <a href="sql.html" class="head">SQL</a> 
+      </nav>
+    </div>
+  </header>
+
+    <main>
+        <section class="intro">
+            <h1>Learn C#</h1>
+            <p>C# (pronounced "C Sharp") is a modern, object-oriented programming language developed by Microsoft. It's widely used for game development, desktop applications, and enterprise software.</p>
+        </section>
+
+        <section class="content">
+            <h3>What You’ll Learn</h3>
+            <ul>
+                <li>Basic syntax and variables</li>
+                <li>Data types and operators</li>
+                <li>Conditionals and loops</li>
+                <li>Functions and methods</li>
+                <li>Object-Oriented Programming concepts</li>
+                <li>Working with .NET libraries</li>
+            </ul>
+        </section>
+
+        <section class="resources">
+            <h3>Beginner C# Resources</h3>
+            <ul>
+                <li><a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank">Microsoft C# Documentation</a></li>
+                <li><a href="https://www.w3schools.com/cs/index.php" target="_blank">W3Schools C# Tutorial</a></li>
+                <li><a href="https://www.tutorialspoint.com/csharp/index.htm" target="_blank">TutorialsPoint C# Guide</a></li>
+            </ul>
+        </section>
+
+        <section class="exercise">
+            <h3>Try It Yourself</h3>
+            <p>Create a C# console app that asks for your favorite color and displays a message.</p>
+<pre>
+<code>
+// Program.cs
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter your favorite color: ");
+        string color = Console.ReadLine();
+        Console.WriteLine($"Wow! {color} is a great color!");
+    }
+}
+</code>
+</pre>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Beginner Code Path. All rights reserved. <a href="resources.html#references">References</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>

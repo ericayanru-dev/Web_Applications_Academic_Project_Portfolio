@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="320" height="80" viewBox="0 0 320 80" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Beginner Code Path logo</title>
+  <desc id="logoDesc">A circular code icon in royal blue with white code brackets, next to the text Beginner Code Path.</desc>
+
+  <!-- Icon circle with code brackets -->
+  <g transform="translate(12,12)">
+    <circle cx="28" cy="28" r="28" fill="#00BFA6" />
+    <!-- left angle bracket -->
+    <path d="M18 22 L12 28 L18 34" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- right angle bracket -->
+    <path d="M38 22 L44 28 L38 34" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- small slash in middle -->
+    <path d="M22 36 L36 20" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text -->
+  <g transform="translate(72,18)" fill="#333333" font-family="Poppins, Arial, Helvetica, sans-serif">
+    <text x="0" y="16" font-size="18" font-weight="700">Beginner</text>
+    <text x="0" y="38" font-size="18" font-weight="500">Code Path</text>
+  </g>
+</svg>
