@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <!-- <24/may/2025> -->
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +7,8 @@
         <meta name="description" content="Eric Ayanru | Developer Portfolio| Home page">
         <meta name="author" content="Eric Ayanru">
         <link rel="stylesheet" href="styles/styles.css">
+        <script defer src="scripts/portfolio.js"></script>
+
     </head>
     <body>
         <header id="home">
@@ -73,12 +74,32 @@
                 </ul>
                 <p><a href="https://github.com/ericayanru-dev/SQL-Academic-Project-Portfolio" target="_blank">View SQL Projects on GitHub</a></p>
 
+                <h3>C# Projects</h3>
+                <ul>
+                    <li><strong>Mindfulness Program</strong> – Console app with guided relaxation activities.</li>
+                    <li><strong>Exercise Tracking</strong> – Tracks running, cycling, and swimming stats.</li>
+                    <li><strong>Shape Calculato</strong> – Uses OOP and polymorphism to compute areas of shapes</li>
+                    <li><strong>Journal Program</strong> – Saves and loads daily journal entries</li>
+                    <li><strong>Scripture Memorizer</strong> – Console tool for practicing scripture recall.</li>
+                </ul>
+                <p><a href="https://github.com/ericayanru-dev/Csharp_Academic-Projects-portfolio" target="_blank">View C# Projects on GitHub</a></p>
+
                 <h3>Web Development</h3>
                 <ul>
-                    <li><strong>Whitewater Rafting Site</strong> – multi-page website with modern HTML/CSS structure.</li>
-                    <li><strong>Portfolio Website</strong> – this current portfolio site showcasing my skills and roadmap.</li>
+                    <li><strong>Whitewater Rafting Site</strong> – multi-page website with modern HTML/CSS structure.
+                        <a href="https://ericayanru-dev.github.io/Web_Applications_Academic_Project_Portfolio/Whitewater_Rafting_Site/index.html">Web link</a></li>
+                    <li><strong>Portfolio Website</strong> – this current portfolio site showcasing my skills and roadmap.<a href="index.html">Web link</a></li>
+                    <li><strong>Beginner Code Path</strong> – A structured series of mini-projects that build from basics to intermediate:
+                        <a href="https://ericayanru-dev.github.io/Web_Applications_Academic_Project_Portfolio/Beginner_Code_Path_Site/">Web link</a><ul>                      
+                        <li>Semantic HTML, forms, and accessibility</li>
+                        <li>CSS layout with Flexbox & Grid, responsive design, media queries</li>
+                        <li>JS DOM & events, form validation, modules, and localStorage (theme toggle)</li>
+                        <li>Fetch API (basic API calls), JSON handling, simple state management</li>
+                        <li>Deployments to GitHub Pages</li>
+                        <li>Sample mini-projects: Responsive Nav, Gallery Filter, Calculator, Light/Dark Mode</li></ul></li>
+                    <li><strong>WDD131 Projects</strong> – Interactive front-end projects using HTML, CSS, and JavaScript, focusing on DOM manipulation, responsive layouts, and user interaction.</li>
                 </ul>
-                <p><a href="https://github.com/ericayanru-dev?tab=repositories&q=&type=&language=html&sort=" target="_blank">View Web Projects on GitHub</a></p>            
+                <p><a href="https://github.com/ericayanru-dev/Web_Applications_Academic_Project_Portfolio" target="_blank">View Web Projects on GitHub</a></p>            
             </section>
             <section id="learning-roadmap">
                <h2>My Learning Roadmap</h2>
@@ -124,6 +145,10 @@
                     <h3>Web Fundamentals (HTML, CSS)</h3>
                     <p>BYU WDD130 (2025)</p>
                     </div>
+                    <div class="cert-item">
+                    <h3>Front-End Development (HTML, CSS, JavaScript)</h3>
+                    <p>BYU WDD131 (2025)</p>
+                    </div>
                 </div>
             </section>
 
@@ -132,7 +157,7 @@
                 <p>Email: <a href="mailto:ericayanru@outlook.com">ericayanru@outlook.com</a></p>
                 <p>GitHub: <a href="https://github.com/ericayanru-dev" target="_blank">ericayanru-dev</a></p>
                 <p>LinkedIn: <a href="https://www.linkedin.com/in/ericayanru" target="_blank">Eric Ayanru</a></p>
-                <p>© 2025 Eric Ayanru | All Rights Reserved</p>
+                <p>©<span id="year"></span> Eric Ayanru | All Rights Reserved</p>
             </footer>
     </body>
 </html>
