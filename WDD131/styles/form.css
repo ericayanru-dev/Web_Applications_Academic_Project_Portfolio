@@ -1,0 +1,59 @@
+:root{
+    --font-family: 'Roboto', sans-serif;
+    --color-primary: #0077cc;
+    --color-secondary: #005fa3;
+    --color-background: #eee;
+    --color-surface: #ffffff;
+    --color-border: #999;
+    --color-text: #555;
+}
+
+.pr{
+    background-color: var(--color-background);
+}
+label{
+    display: block;
+    padding-top: 1rem;
+    color: var(--color-text);
+    font-size: .9rem;
+}
+
+.radio-group{
+    display: flex;
+    gap: 1rem;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+#message
+{
+    background-color: var(--color-background);
+    display: block;
+    border: solid 1px var(--color-border);
+    border-radius: 6px;
+    padding: .75rem;
+    color: var(--color-text);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+div{
+    padding-top: 1rem;
+    color: #445ba4;
+    font-size: .9rem;
+}
+
+div .radio-group{
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+input:required{
+    border-bottom: solid 8px red;
+}
+
+input:required:valid{
+    border-bottom: solid 8px green;
+}

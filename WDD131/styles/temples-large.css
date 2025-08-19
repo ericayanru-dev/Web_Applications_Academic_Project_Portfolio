@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width: 950px){
+    main{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    #menu{
+        display:none;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .figure{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1rem;
+    }
+    main h2{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+}

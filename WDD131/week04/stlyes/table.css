@@ -1,0 +1,32 @@
+body {
+  padding: 5%;
+}
+
+table {
+  width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+}
+
+caption{
+    caption-side: bottom;
+    font-size: small;
+    padding: 0.5rem;
+}
+
+th,
+  td {
+    padding: 0.5em 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+   thead {
+    color: #fff;
+    background: #000;
+   }
+
+   th {
+      padding: 1rem;
+      font-size: larger;
+    }

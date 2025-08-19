@@ -1,0 +1,178 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Beginner Code Path</title>
+  <link rel="stylesheet" href="styles/beginner-code.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <script defer src="scripts/beginner-code.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/logo-placeholder.png" alt="Beginner Code Path logo" class="logo" width="48" height="48">
+        <span class="site-title">Beginner Code Path</span>
+      </a>
+
+      <button id="nav-toggle" class="nav-toggle">&#9776;</button>
+
+      <nav id="main-nav" class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>"Start Your Coding Journing Today"</h1>
+        <p>Follow clear learning paths, try small projects, and track your progress.</p>
+        <div class="btn">
+          <a class="btn1" href="learn.html">Get Started</a>
+          <a class="btn2" href="#topics">Browse Topics</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="what-you-learn container" aria-labelledby="learn-heading">
+      <h2 id="learn-heading">What You'll Learn</h2>
+      <div id="topics-grid" class="topic-grid" aria-live="polite">
+        <div class="learn-card">
+          <img src="images/html_icon.svg" alt="HTML icon">
+          <h3>HTML</h3>
+          <p>The structure of every webpage—use semantic tags to build accessible pages.</p>
+        </div>
+        <div class="learn-card">
+          <img src="images/css_icon.svg" alt="CSS icon">
+          <h3>CSS</h3>
+          <p>Style and layout your webpages. Learn selectors, Flexbox, Grid, responsive techniques, and how to make attractive, accessible designs.</p>
+        </div>
+        <div class="learn-card">
+          <img src="images/js_icon.svg" alt="JS icon">
+          <h3>JavaScript</h3>
+          <p>Add interactivity to your pages. Learn variables, functions, DOM manipulation, events, and how to build dynamic UI features and simple apps.</p>
+        </div>
+        <div class="learn-card">
+          <img src="images/python_icon.svg" alt="Python icon">
+          <h3>Python</h3>
+          <p>A beginner-friendly programming language for automation, data, and web backends. Learn syntax, control flow, functions, and small scripts to solve problems.</p>
+        </div>
+        <div class="learn-card">
+          <img src="images/c_sharp_icon.svg" alt="C# icon">
+          <h3>C#</h3>
+          <p>A powerful language for building desktop apps, web services, and games (Unity). Learn basic syntax, objects, classes, and simple projects to apply OOP concepts.</p>
+        </div>
+        <div class="learn-card">
+          <img src="images/sql_icon.svg" alt="SQL icon">
+          <h3>SQL</h3>
+          <p>Learn to store and query data. Practice SELECT, INSERT, UPDATE, JOINs, and basic database design to retrieve and analyze information efficiently.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured container">
+      <h2>Featured Resources</h2>
+      <div class="language-grid">
+        <article class="language-card">
+            <h3>HTML</h3>
+            <p>The structure of every website — learn how to organize your content and make it accessible.</p>
+        </article>
+        <article class="language-card">
+            <h3>CSS</h3>
+            <p>Bring your websites to life with styling, colors, and responsive layouts.</p>
+        </article>
+        <article class="language-card">
+            <h3>JavaScript</h3>
+            <p>Make your pages interactive and dynamic with scripts and event-driven programming.</p>
+        </article>
+        <article class="language-card">
+            <h3>Python</h3>
+            <p>A versatile, beginner-friendly language for web apps, data analysis, and automation.</p>
+        </article>
+        <article class="language-card">
+            <h3>C#</h3>
+            <p>Build powerful desktop apps, games with Unity, and enterprise-level software.</p>
+        </article>
+        <article class="language-card">
+            <h3>SQL</h3>
+            <p>Store, query, and manage data efficiently with structured database commands.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-intro">
+        <h1>Contact & Support</h1>
+        <p>Got a question or need help with your coding journey? Check the FAQ below, or send me a message directly.</p>
+    </section>
+
+    <div class="ai-form">
+          <!-- AI Chat Section -->
+        <section class="ai-chat">
+            <h2>General Inquiries</h2>
+            <p>Chat with our bot any time to receive quick answers to general questions.</p>
+            <button id="start-chat">💬 Start a Chat</button>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form-section">
+            <h2>Send a Message</h2>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>Do I need to install anything before starting?</h3>
+            <p>Not much! You only need a browser like Chrome or Firefox, and we recommend installing <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Is this site free to use?</h3>
+            <p>Yes, all learning paths and resources here are 100% free for beginners.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Which languages do you teach?</h3>
+            <p>We cover HTML, CSS, JavaScript, plus beginner-friendly guides for Python, C#, and SQL.</p>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="contact-info">
+        <h2>Other Ways to Reach Me</h2>
+        <ul>
+            <li>Email: <a href="mailto:hello@beginnercodepath.com">hello@beginnercodepath.com</a></li>
+            <li>GitHub: <a href="https://github.com/ericayanru" target="_blank">github.com/ericayanru</a></li>
+            <li>Discord: Beginner Code Path Community (Invite Link)</li>
+        </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Beginner Code Path. <a href="resources.html#references">References</a></p>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

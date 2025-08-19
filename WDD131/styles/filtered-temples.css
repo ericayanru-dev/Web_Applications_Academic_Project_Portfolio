@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding:1rem ;
+    background-color: rgb(72, 5, 134);
+    color: aliceblue;
+}
+header h1{
+    font-size:1.5rem ;
+}
+#menu{
+    font-size:1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+#menu::before{
+    content:"☰";
+}
+#menu.show::before{
+    content:"✖"
+}
+#menu:hover{
+    background-color: rgb(187, 151, 151);
+    border-radius: 0.5rem;
+}
+nav {
+    display: none;
+    flex-direction: column;
+}
+nav.show{
+    display: flex;
+    gap: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(2, 7, 11);
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: aliceblue;
+}
+nav a:hover{
+    background-color: rgb(187, 151, 151);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+main{
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+}
+main h2{
+    padding-top: 1rem;
+}
+.temples-container{
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1rem));
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer{
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: rgb(72, 5, 134);
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+}
+footer p{
+    padding: 0.5rem ;
+}
+
+.temple-card{
+    margin: 1rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(226, 224, 224);
+    border: 1px solid rgb(212, 212, 211);
+}
+
+.temple-card h2{
+    padding-bottom: 0.5rem;
+}
+.temple-card img{
+    padding-top: 1rem;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}

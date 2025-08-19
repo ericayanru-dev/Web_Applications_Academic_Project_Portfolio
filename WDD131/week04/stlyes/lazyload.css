@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+
+main{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+img{
+    display: block;
+    animation-duration: 0ms;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page | Eric Ayanru</title>
+    <meta name="description" content="Country i wish to Visit">
+    <meta name="author" content="Eric Ayanru">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Canada</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/canada_flag.webp" media="(min-width: 1000px)">
+                <source srcset="images/forex.webp" media="(min-width: 750px)">
+                <img src="images/forex.webp" alt="Canadian landscape with trees and mountains">
+            </picture>
+
+            <div class="data">
+                <h2> Country Date</h2>
+                <ul>
+                    <li><span class="label">Area: </span><span id="area">Loading...</span></li>
+                    <li><span class="label">Population: </span><span id="population">Loading...</span></li>
+                    <li><span class="label">Capital: </span><span id="capital">Loading...</span></li>
+                    <li><span class="label">Languages:</span><span id="languages">Loading...</span></li>
+                    <li><span class="label">Currency: </span><span id="currency">Loading...</span></li>
+                    <li><span class="label">Time Zone: </span><span id="timezone">Loading...</span></li>
+                    <li><span class="label">Calling Code: </span><span id="callingcode">Loading...</span></li>
+                    <li><span class="label">Internet TLD: </span><span id="tld">Loading...</span></li>
+                </ul>
+            </div> 
+
+            <div class="weather">
+                <h2>Country Weather</h2>
+                <picture>
+                    <img src ="images/1530391_weather_clouds_sun_sunny_icon.svg" alt="weather">
+                </picture>
+                <ul>
+                    <li><span class="label">Temperature: </span><span id="temperature">Loading...</span></li>
+                    <li><span class="label">Conditions: </span><span id="conditions">Loading...</span></li>
+                    <li><span class="label">Wind: </span><span id="wind">Loading...</span></li>
+                    <li><span class="label">Wind Chill: </span><span id="windchill">Loading...</span></li>
+                </ul>
+            </div>  
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="date"></span>Eric Ayanru</p>
+        <p>Last Modification:<span id="lastmodification"></span></p>
+    </footer>
+    
+</body>
+</html>

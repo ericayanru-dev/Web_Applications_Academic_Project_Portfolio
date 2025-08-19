@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{
+    font-family:'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header, main, footer{
+    max-width: 640px;
+    margin: 1rem auto;
+    border: solid 1px #ccc;
+    padding: 0.5rem;
+    background-color: aliceblue;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+section{
+    background-color: #fff;
+    padding: 1rem;
+}

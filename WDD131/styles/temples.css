@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding:1rem ;
+    background-color: rgb(72, 5, 134);
+    color: aliceblue;
+}
+header h1{
+    font-size:1.5rem ;
+}
+#menu{
+    font-size:2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+#menu::before{
+    content:"☰";
+}
+#menu.show::before{
+    content:"✖"
+}
+#menu:hover{
+    background-color: brown;
+    border-radius: 0.5rem;
+}
+nav {
+    display: none;
+    flex-direction: column;
+}
+nav.show{
+    display: flex;
+    gap: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+nav a:hover{
+    background-color: brown;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+main{
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+}
+main h2{
+    padding-top: 1rem;
+}
+.figure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.figure figure {
+    margin: 1rem;
+    max-width: 300px;
+    width: 100%;
+}
+img{
+    max-width: 200px;
+}
+footer{
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: rgb(72, 5, 134);
+    color: aliceblue;
+    text-align: center;
+    padding: 1rem;
+}
+footer p{
+    padding: 0.5rem ;
+}
